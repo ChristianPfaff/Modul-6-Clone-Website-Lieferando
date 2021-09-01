@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Übung Liferando</title>
+    <link rel="stylesheet" href="lieferando.css" />
+    <script src="lieferando.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="header">
+      <nav class="navigation-bar menu-style img-formation txt-color-white">
+        <div class="nav-left">
+          <img class="arrow-size" src="img/arrow-88-48.png" />
+          <img src="img/hamburger-48.png" />
+          <a href="#">Lieferando.de</a>
+        </div>
+        <p>Lilienstraße 3, Leibzig</p>
+        <img class="icon-menu" src="img/menu-4-48_white.png" />
+      </nav>
+    </div>
+    <div class="top-main">
+      <div class="main-frame">
+        <img class="pizza" src="img/pizza-346985_640.jpg" />
+        <div class="main">
+          <h1>Croccante Restaurant</h1>
+        </div>
+        <div class="choose-bar b1">
+          <img class="loupe-style" src="img/magnifying-glass-3-48.png" />
+          <a href="">Beliebte Gerichte</a>
+          <a href="">Salate</a>
+          <a href="">Pizza</a>
+          <a href="">Pizzabrot</a>
+          <a href="">Pasta AlForno</a>
+          <a href="">Aufläufe</a>
+        </div>
+
+        <div class="m2"><h2>Beliebte Gerichte</h2></div>
+        <div id="menu1" class="m2">
+          <img src="img/plus-8-48.png" onclick="addToBasked(1,'Cheeseburger',5.60)" />
+          <div>
+            <div class="u1">Cheeseburger</div>
+            <div>mit 100g saftigem Rindfleischpatty, Käse, Hamburgersauce und Ketschup</div>
+            <div class="description-1">Wahl aus: mit Zwiebeln.</div>
+            <div class="price">5,60 €</div>
+          </div>
+        </div>
+        <div id="menu2" class="m2">
+          <img src="img/plus-8-48.png" onclick="addToBasked(1,'Hausgemachte Tiramisu',5.60)" />
+          <div>
+            <div class="u1">Hausgemachte Tiramisu</div>
+            <div class="price">5,50 €</div>
+          </div>
+        </div>
+        <div id="menu3" class="m2">
+          <img src="img/plus-8-48.png" onclick="addToBasked(1,'Pizza Salami',9.90)" />
+          <div>
+            <div class="u1">Pizza Salami</div>
+            <div class="description-1">Wahl aus: ø32cm oder 52cm x 32cm.</div>
+            <div class="price">9,90 €</div>
+          </div>
+        </div>
+      </div>
+      <div class="basket">
+        <div>Warenkorb</div>
+        <hr />
+        <div id="id-basket" class="basket-2"><span id="text-choose"> Wähle leckere Gerichte aus der Karte und bestelle Dein Menü.</span></div>
+        <div id="id-basket-2"></div>
+        <hr />
+      </div>
+    </div>
+  </body>
+</html>

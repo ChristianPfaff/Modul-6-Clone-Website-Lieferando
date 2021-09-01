@@ -1,0 +1,260 @@
+body {
+  margin: 0 auto;
+
+  font-family: Takeaway Sans, Avant Garde, Century Gothic, Helvetica, Arial, sans-serif;
+}
+
+.txt-color-white {
+  color: white;
+}
+
+.header {
+  /* position: relative; */
+}
+
+.navigation-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navigation-bar p {
+  text-decoration: underline;
+}
+
+.top-main {
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-frame {
+  flex-grow: 1;
+}
+
+.basket {
+  width: 350px;
+  height: 100vh;
+  border: solid 2px #f8f5f2;
+  text-align: center;
+}
+
+.basket-2 {
+  text-align: center;
+  margin: auto;
+  min-height: 153px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.nav-left a {
+  text-decoration: none;
+  color: white;
+}
+
+.img-formation img {
+  width: 30px;
+}
+
+.arrow-size {
+  width: 20px !important;
+}
+
+.arrow-size .navigation-bar {
+  width: 20px !important;
+}
+
+.icon-menu {
+  width: 20px !important;
+}
+
+.menu-style {
+  background-color: #ff8000;
+  padding: 0px 16px 0px 16px;
+}
+
+.b1 {
+  background-color: #f8f5f2;
+}
+
+.b2 {
+  background-color: #ffffff;
+}
+
+.nav-left {
+  width: 170px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.pizza {
+  width: 100%;
+  height: 20vh;
+  object-fit: cover;
+}
+
+/* .main {
+ 
+  
+} */
+
+h1 {
+  position: relative;
+}
+
+h1::after {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  content: "\002605\002605\002605\002605\002605";
+  color: #ff8000;
+  font-size: 22px;
+}
+
+h2 {
+  margin: 0;
+}
+
+.meal-container {
+  border: 1px solid #ebebeb;
+  border-radius: 2px;
+  margin: 8px 0;
+  position: relative;
+}
+
+.m1 {
+  border-radius: 2px 2px 0 0;
+  border: 1px solid #f8f5f2;
+}
+
+.m2 {
+  padding: 19px 12px;
+  border: 1px solid lightgrey;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.price {
+  font-family: Takeaway Sans, Avant Garde, Century Gothic, Helvetica, Arial, sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.22;
+  letter-spacing: -0.5px;
+  color: #ff8000;
+  padding: 10px 0 0 0;
+}
+
+.description-1 {
+  font-family: Takeaway Sans, Avant Garde, Century Gothic, Helvetica, Arial, sans-serif;
+  font-style: italic;
+  font-size: 13px;
+  color: #666;
+  line-height: 1.5;
+  margin: 8px 0 0px 0;
+}
+
+.u1 {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 0 0 10px 0;
+}
+
+img.loupe-style {
+  width: 15px;
+  object-fit: contain;
+}
+
+.choose-bar {
+  margin: 50px 0 0 0;
+  padding: 10px 0px 10px 0px;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  text-decoration: none;
+}
+
+#id-basket img {
+  object-fit: contain;
+  width: 20px;
+}
+
+#menu1 {
+  position: relative;
+}
+
+#menu2 {
+  position: relative;
+}
+
+#menu3 {
+  position: relative;
+}
+
+#menu1 img {
+  position: absolute;
+  right: 25px;
+  object-fit: contain;
+  width: 20px;
+  cursor: pointer;
+}
+
+#menu2 img {
+  position: absolute;
+  right: 25px;
+  object-fit: contain;
+  width: 20px;
+  cursor: pointer;
+}
+
+#menu3 img {
+  position: absolute;
+  right: 25px;
+  object-fit: contain;
+  width: 20px;
+  cursor: pointer;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.table-style-1 {
+  text-align: left;
+  width: 95%;
+}
+
+.table-style-2 {
+  text-align: left;
+  width: 95%;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+#output td:nth-child(2) {
+  width: 120px;
+  text-align: left;
+}
+#output td:nth-child(3) {
+  width: 80px;
+}
+#output td:nth-child(4) {
+  width: 80px;
+  text-align: right;
+}
+
+.edit-amount {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+#output tr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
